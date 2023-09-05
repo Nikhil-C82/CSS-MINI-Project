@@ -39,6 +39,53 @@
     color: white;
     left: 60px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
+}
+
+.sidebar_menu .btn_two{
+    color:grey;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    width: 100%;
+    left:268px;
+    opacity: 0;
+}
+
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebar_menu .menu li{
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.sidebar_menu .menu i,a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.sidebar_menu .menu i{
+    padding-right: 10px;
+}
+
+.sidebar_menu .social_media{
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    left:25%;
+    bottom: 20px;
+}
+.sidebar_menu .social_media i{
+    padding-left: 8px;
+}
+
+#check{
+    display: none;
 }
